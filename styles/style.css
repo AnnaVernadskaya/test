@@ -1,0 +1,72 @@
+:root {
+  --bg-color: #282829;
+  --main-font: "Arial", sans-serif;
+  --accent-font: "Prata", sans-serif;
+  --text-color: #fff;
+  --dark-color: #222;
+  --form-title-color: #38535d;
+  --line-color: #d5c9be;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page {
+  min-inline-size: 360px;
+  background-color: var(--bg-color, #282829);
+  font-family: var(--main-font, sans-serif);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--text-color, #fff);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+button:hover,
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
