@@ -396,7 +396,7 @@ button:disabled {
   right: 0;
   width: 50%;
   height: 100%;
-  background-image: url("/images/bg-form.png");
+  background-image: url("../images/bg-form.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
@@ -410,7 +410,7 @@ button:disabled {
   right: 91px;
   width: 599px;
   height: 903px;
-  background-image: url("/images/girl.png");
+  background-image: url("../images/girl.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom right;
