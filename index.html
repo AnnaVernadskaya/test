@@ -4,78 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lorem</title>
+    <title>UrbanView Residences</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body class="page">
     <header class="header">
-      <div class="header__text-info">
-        <div class="header__wrapper">
-          <a class="logo" href="/">lorem</a>
-          <nav class="header__nav">
-            <ul class="header__list">
-              <li class="header__list-item"><a href="#">consectetur</a></li>
-              <li class="header__list-item"><a href="#">sit amet</a></li>
-              <li class="header__list-item"><a href="#">eiusmod tempor</a></li>
-            </ul>
-          </nav>
+      <div class="header__content">
+        <div class="header__text-info">
+          <div class="header__wrapper">
+            <a class="logo" href="/">UrbanView</a>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__list-item"><a href="#">About</a></li>
+                <li class="header__list-item"><a href="#">Features</a></li>
+                <li class="header__list-item"><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <h1 class="header__title">Live the city life in modern comfort</h1>
+          <p class="header__text">
+            Elegant residences in the heart of the city
+          </p>
+
+          <ul class="header__advantages-list">
+            <li class="header__advantages-list-item">
+              <img
+                class="header__advantages-list-img"
+                src="./images/check-mark.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <p class="header__advantages-list-text">
+                Up to
+                <span class="header__advantages-list-text-large">$10 000</span>
+                in cashback benefits
+              </p>
+            </li>
+
+            <li class="header__advantages-list-item">
+              <img
+                class="header__advantages-list-img"
+                src="./images/check-mark.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <p class="header__advantages-list-text">
+                <span class="header__advantages-list-text-large">30%</span>
+                discount on early bookings
+              </p>
+            </li>
+
+            <li class="header__advantages-list-item">
+              <img
+                class="header__advantages-list-img"
+                src="./images/check-mark.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <p class="header__advantages-list-text">
+                Up to
+                <span class="header__advantages-list-text-large">17%</span>
+                investment returns annually
+              </p>
+            </li>
+          </ul>
+          <a href="#contact-form" class="button header__button">Order now</a>
         </div>
-        <h1 class="header__title">Lorem ipsum dolor sit amet</h1>
-        <p class="header__text">sed do eiusmod tempor</p>
-
-        <ul class="header__advantages-list">
-          <li class="header__advantages-list-item">
-            <img
-              class="header__advantages-list-img"
-              src="./images/check-mark.png"
-              alt=""
-              aria-hidden="true"
-            />
-            <p class="header__advantages-list-text">
-              do
-              <span class="header__advantages-list-text-large">$10 000</span>
-              consectetur elit
-            </p>
-          </li>
-
-          <li class="header__advantages-list-item">
-            <img
-              class="header__advantages-list-img"
-              src="./images/check-mark.png"
-              alt=""
-              aria-hidden="true"
-            />
-            <p class="header__advantages-list-text">
-              <span class="header__advantages-list-text-large">30%</span> sed do
-              eiusmod tempor 
-            </p>
-          </li>
-
-          <li class="header__advantages-list-item">
-            <img
-              class="header__advantages-list-img"
-              src="./images/check-mark.png"
-              alt=""
-              aria-hidden="true"
-            />
-            <p class="header__advantages-list-text">
-              do
-              <span class="header__advantages-list-text-large">17%</span>
-              adipiscing elit sed do
-            </p>
-          </li>
-        </ul>
-        <a href="#contact-form" class="button header__button">order</a>
+        <img
+          class="header__image"
+          src="./images/main.jpg"
+          alt="Modern building in the city"
+        />
       </div>
-      <img src="./images/main.jpg" alt="build" />
     </header>
 
     <main class="main">
       <section class="type">
-        <h2 class="visually-hidden">Types</h2>
-        <img class="type__img-left" src="./images/build-left.jpg" alt="build" />
+        <h2 class="visually-hidden">Property types</h2>
+        <img
+          class="type__img-left"
+          src="./images/build-left.jpg"
+          alt="Modern glass building"
+        />
         <div class="type__wrapper">
           <ul class="type__list">
             <li class="type__list-item">
@@ -86,8 +98,7 @@
                 aria-hidden="true"
               />
               <p class="type__list-text">
-                Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod
-                tempor
+                Spacious one-bedroom apartments with panoramic city views
               </p>
             </li>
 
@@ -99,8 +110,7 @@
                 aria-hidden="true"
               />
               <p class="type__list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor
+                Two-bedroom units with smart-home features and balconies
               </p>
             </li>
 
@@ -112,9 +122,8 @@
                 aria-hidden="true"
               />
               <p class="type__list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
+                Premium penthouses with private terraces, custom interiors, and
+                direct elevator access
               </p>
             </li>
 
@@ -126,24 +135,24 @@
                 aria-hidden="true"
               />
               <p class="type__list-text">
-                Lorem ipsum dolor amet, consectetur adipiscing elit, sed do
-                eiusmod tempor
+                Flexible co-living spaces ideal for students and young
+                professionals
               </p>
             </li>
           </ul>
-          <a href="#contact-form" class="button type__button">order</a>
+          <a href="#contact-form" class="button type__button">View options</a>
         </div>
         <img
           class="type__img-right"
           src="./images/build-right.jpg"
-          alt="build"
+          alt="Residential tower exterior"
         />
       </section>
 
       <div class="contact-form-wrapper">
         <section class="contact-form">
           <div class="contact-form__container">
-            <h2 class="contact-form__title">Consectetur sed do eiusmod</h2>
+            <h2 class="contact-form__title">Get in touch with our team</h2>
             <form class="form" action="/submit" method="POST" id="contact-form">
               <div class="form-group">
                 <label for="name" class="visually-hidden">Your name</label>
@@ -179,13 +188,13 @@
                     required
                   />
                   <span class="form-group__pseudo-checkbox"></span>
-                  <span class="checkbox-text">I accept Privacy policy</span>
+                  <span class="checkbox-text">I accept the Privacy Policy</span>
                 </label>
               </div>
 
               <div class="form-group">
                 <button type="submit" class="button form-group__button">
-                  submit form
+                  Submit form
                 </button>
               </div>
             </form>
@@ -194,17 +203,17 @@
       </div>
 
       <section class="navigate">
-        <h2 class="visually-hidden">Navigate</h2>
+        <h2 class="visually-hidden">Site navigation</h2>
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__list-item">
-              <a href="#" target="_blank">consectetur</a>
+              <a href="#" target="_blank">About</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" target="_blank">adipiscing</a>
+              <a href="#" target="_blank">Services</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" target="_blank">tempor</a>
+              <a href="#" target="_blank">Contact</a>
             </li>
           </ul>
         </nav>
@@ -214,7 +223,7 @@
     <footer class="footer">
       <h2 class="visually-hidden">Site footer</h2>
       <div class="footer__wrapper">
-        <a class="logo footer__logo" href="/">lorem</a>
+        <a class="logo footer__logo" href="/">UrbanView</a>
 
         <ul class="footer__social-list">
           <li class="footer__social-list-item">
@@ -226,27 +235,24 @@
               />
             </a>
           </li>
-
           <li class="footer__social-list-item">
             <a href="#" class="footer__social-link" target="_blank">
               <img
                 class="footer__social-icon"
                 src="./images/music-icon.svg"
-                alt="Music"
+                alt="Spotify"
               />
             </a>
           </li>
-
           <li class="footer__social-list-item">
             <a href="#" class="footer__social-link" target="_blank">
               <img
                 class="footer__social-icon"
                 src="./images/in-icon.svg"
-                alt="social network icon In"
+                alt="LinkedIn"
               />
             </a>
           </li>
-
           <li class="footer__social-list-item">
             <a href="#" class="footer__social-link" target="_blank">
               <img
@@ -256,7 +262,6 @@
               />
             </a>
           </li>
-
           <li class="footer__social-list-item">
             <a href="#" class="footer__social-link" target="_blank">
               <img
@@ -266,7 +271,6 @@
               />
             </a>
           </li>
-
           <li class="footer__social-list-item">
             <a href="#" class="footer__social-link" target="_blank">
               <img
@@ -278,13 +282,28 @@
           </li>
         </ul>
 
-        <a href="#" class="button footer__button">order</a>
+        <a href="#" class="button footer__button">Order now</a>
       </div>
       <div class="footer__copyright-wrapper">
-        <p class="footer__copyright">&copy; 2024, Copyright.</p>
-        <a href="#" class="footer__privacy-policy">Privacy policy</a>
+        <p class="footer__copyright">
+          &copy; 2024, UrbanView. All rights reserved.
+        </p>
+        <a href="#" class="footer__privacy-policy">Privacy Policy</a>
         <a href="#" class="footer__terms-of-use">Terms of Use</a>
       </div>
     </footer>
+
+
+    <script>
+      window.addEventListener('scroll', function () {
+        const header = document.querySelector('.header__wrapper');
+        if (window.scrollY > 50) {
+          header.classList.add('header__wrapper--scrolled');
+        } else {
+          header.classList.remove('header__wrapper--scrolled');
+        }
+      });
+    </script>
+    
   </body>
 </html>
